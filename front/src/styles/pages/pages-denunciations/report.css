@@ -1,0 +1,76 @@
+#page-report main {
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 100%;
+    max-width: 74rem;
+    border-radius: 0.8rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+#page-report main fieldset {
+    border: 0;
+    padding: 0 2.4rem;
+}
+
+#page-report main fieldset legend {
+    font: 700 2rem Arial;
+    color: #000000;
+    margin-bottom: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    
+}
+
+#page-report {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+}
+
+#page-report aside {
+    width: 440px;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page-report aside h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 80px;
+}
+
+#page-report aside p {
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+#page-report footer {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 24px;
+}
+
+#page-report footer strong{
+   font-weight: 800;
+}
+
+#page-report aside header .img-logo {
+    display: flex;
+    justify-content: center;
+    
+    margin-right: 215px;
+    height: 80px;
+}
+

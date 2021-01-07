@@ -1,0 +1,172 @@
+#page-landing{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-landing .content-wrapper{
+    position: relative;
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 600px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url('../../images/landing.png') no-repeat right bottom;
+    /* <a href='https://www.freepik.com/vectors/people'>People vector created by pikisuperstar - www.freepik.com</a> */
+    background-size: 50%;
+}
+
+#page-landing .content-wrapper header{
+    display: flex;
+    align-items: baseline;
+
+    width: 100%;
+    justify-content: space-between;
+}
+
+#page-landing .content-wrapper header .logo{
+    display: flex;
+    align-items: baseline;
+}
+
+#page-landing .content-wrapper header .login-adm{
+    text-decoration: none;
+}
+
+#page-landing .content-wrapper img{
+    height: 40px;
+    margin-right: 7px;
+}
+
+#page-landing .content-wrapper h2 {
+    font-size: 35px;
+}
+
+
+#page-landing .content-wrapper .buttonChoice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-landing .content-wrapper .buttonChoice a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    width: 300px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+    
+    transition: background-color 0.2s;
+}
+
+#page-landing .content-wrapper .buttonChoice a:hover {
+    background: #96feff;
+}
+
+#page-landing .content-wrapper main {
+    max-width: 350px;
+}
+
+#page-landing .content-wrapper main h1 {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#page-landing .content-wrapper main p {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+@media(max-width: 910px){
+    #page-landing .content-wrapper{
+        background-image: unset;
+        min-height: 90vh;
+    }
+    
+    #page-landing .content-wrapper header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #page-landing .content-wrapper header .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page-landing .content-wrapper header .login-adm{    
+        text-decoration: none;
+        margin-top: 5px;
+    }
+    
+    .content-wrapper .buttonChoice{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 300px;
+
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .content-wrapper .buttonChoice a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        text-decoration: none;
+        width: 80vw;
+        height: 10vh;
+        background: #ffd666;
+        border-radius: 20px;
+        
+        transition: background-color 0.2s;
+    }
+
+    .content-wrapper .buttonChoice a:hover {
+        background: #96feff;
+    }
+
+    #page-landing .content-wrapper main{
+        min-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 15% 0;
+    }
+
+    #page-landing .content-wrapper main h1 {
+        font-size: 11vw;
+        font-weight: 900;
+        line-height: 10vw;
+    }
+    
+    #page-landing .content-wrapper main p {
+        margin-top: 3px;
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+}
+
