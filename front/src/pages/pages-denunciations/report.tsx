@@ -24,17 +24,6 @@ function report(){
                 </footer>
             </aside>
 
-            <main>
-                
-            <fieldset>
-                    <legend>Descreva sua denúncia aqui</legend>
-
-                    <div className="input-block">
-                        <label htmlFor="aDescription">Denúncia</label>
-                        <input type="text" id="aDescription"/>
-                    </div>
-                </fieldset>
-            </main>
         </div>
 
     );
