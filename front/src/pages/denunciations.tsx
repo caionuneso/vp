@@ -31,7 +31,7 @@ function denunciations() {
           <div className="buttonChoice">
             <Link to="/report">Anonimato</Link>
             <Link to="/generateProtocol">Sujeito Identificado</Link>
-            <Link to="/">Acompanhar denúncia</Link>
+            <Link to="/followingDenunciations">Acompanhar denúncia</Link>
           </div>
           <div className="alert">
             <p>

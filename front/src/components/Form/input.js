@@ -6,9 +6,9 @@ export default function Input({ name }) { //fildName é o nome final do input
     const inputRef = useRef(null);
     const {fieldName, registerField, defaultValue, error} = useField ( name );
 
-    console.log(input.current);
-
-    useEffect(() => {}, []);
+    useEffect(() => {
+        console.log(input.current);
+    }, [InputRef]);
 
     return (
         <input ref={inputRef}/> 
