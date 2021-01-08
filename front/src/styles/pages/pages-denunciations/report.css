@@ -47,3 +47,53 @@
     height: 80px;
 }
 
+#page-report .rightBlockReport {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(329.54deg, #ffffff 0%, #95f1f1 100%);
+}
+
+#page-report .rightBlockReport .styleTitleBlock {
+    width: 90%;
+    height: 10%;
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffd666;
+    border-radius: 0.5rem;
+
+    margin-top: 47px;
+    margin-left: 5%;
+}   
+
+#page-report .rightBlockReport .styleTitleBlock h2 {
+    display: flex;
+    align-items: center;
+
+    color: #222;
+
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+}
+
+#page-report .rightBlockReport .blockReportForm {
+    width: 90%;
+    height: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 49px;
+    margin-left: 5%;
+
+    background: rgba(255, 255, 255, 0.952);
+    border-radius: .8rem;
+
+    box-shadow: 5px 5px 15px black ;
+}
+
+
+

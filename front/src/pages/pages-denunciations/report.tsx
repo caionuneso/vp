@@ -4,20 +4,17 @@ import icon from '../images/icon.svg'
 
 import '../../styles/pages/pages-denunciations/report.css';
 
-import { Form } from '@unform/web';
-
-import Input from '../../components/Form/input';
-
 function report(){
     return(
-        <div id="page-report">
+            <div id="page-report">
+           
             <aside>
                 <header>
                     <div className="img-logo">
                          <img src="/static/media/icon.5d399b31.svg" alt="icon" />
                     </div>
         
-                    <h2>Descreva, com detalhamento, sua denúncia</h2>
+                    <h2>Com a sua contribuição conseguimos transformar nossa cidade em um lugar melhor</h2>
                     <p>Você também pode adicionar imagens e vídeos à denúncia</p>
 
                 </header>
@@ -27,7 +24,18 @@ function report(){
                     <span>Cidade</span>
                 </footer>
             </aside>
+            <div className="rightBlockReport">
 
+                <div className="styleTitleBlock">
+                    <h2>Descreva, com detalhamento, a sua denúncia</h2>
+                </div>
+
+                <div className="blockReportForm">
+                    
+                    
+
+                </div>
+            </div>
         </div>
 
     );
