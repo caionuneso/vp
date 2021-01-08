@@ -56,7 +56,7 @@
 
 #page-report .rightBlockReport .styleTitleBlock {
     width: 90%;
-    height: 10%;
+    height: 7%;
 
     display : flex;
     align-items: center;
@@ -80,7 +80,7 @@
 
 #page-report .rightBlockReport .blockReportForm {
     width: 90%;
-    height: 70%;
+    height: 75%;
 
     display: flex;
     justify-content: center;
@@ -95,5 +95,12 @@
     box-shadow: 5px 5px 15px black ;
 }
 
+#page-report .rightBlockReport .blockReportForm {
+    display: flex;
+    align-items: center;
+}
 
-
+#page-report .rightBlockReport .blockReportForm fieldset{
+    border: 0;
+    padding: 0 2.4rem;
+}
