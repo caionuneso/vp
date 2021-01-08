@@ -4,6 +4,10 @@ import icon from '../images/icon.svg'
 
 import '../../styles/pages/pages-denunciations/report.css';
 
+import { Form } from '@unform/web';
+
+import Input from '../../components/Form/input';
+
 function report(){
     return(
         <div id="page-report">
