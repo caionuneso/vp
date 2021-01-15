@@ -2,41 +2,42 @@ import React from 'react';
 
 import icon from '../images/icon.svg'
 
+import { Link } from 'react-router-dom';
+
+import { FiArrowLeft } from "react-icons/fi";
+
 import '../../styles/pages/pages-denunciations/report.css';
 
 function report(){
     return(
             <div id="page-report">
-                <aside>
-                    <header>
-                        <div className="img-logo">
-                            <img src="/static/media/icon.5d399b31.svg" alt="icon" />
-                        </div>
-            
-                        <h2>Com a sua contribuição conseguimos transformar nossa cidade em um lugar melhor</h2>
-                        <p>Você também pode adicionar imagens e vídeos à denúncia</p>
+               <header className ="page-header">
+                   <div className="top-bar-container">
+                        <img src="/static/media/icon.5d399b31.svg" alt="icon"/>
+                        <Link to="/denunciations">
+                            <FiArrowLeft size={35} /> 
+                        </Link>
+                        
+                   </div>
 
-                    </header>
+                   <div className="header-content">
+                       <strong>Com a sua contribuição conseguimos transformar nossa cidade em um lugar melhor</strong>
+                   </div>
 
-                    <footer>
-                        <strong>Estado (UF)</strong>
-                        <span>Cidade</span>
-                    </footer>
-                </aside>
-                <div className="rightBlockReport">
+               </header>
 
-                    <div className="styleTitleBlock">
-                        <h2>Descreva, com detalhamento, a sua denúncia</h2>
+                <form id="anonymousForm">
+                    <div className="description">
+                        <label htmlFor="Descricao">Descrição</label>
+                        <input type="text"/>
                     </div>
-            
-                    <div className="blockReportForm">
-                    
-                    </div>
-                    
-                </div>
+                </form>
+
             </div>
 
     );
 }
 
 export default report;
+
+

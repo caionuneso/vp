@@ -30,8 +30,7 @@ function denunciations() {
         <main>
           <div className="buttonChoice">
             <Link to="/report">Anonimato</Link>
-            <Link to="/generateProtocol">Sujeito Identificado</Link>
-            <Link to="/followingDenunciations">Acompanhar denúncia</Link>
+            <Link className="buttonGenerate" to="/generateProtocol">Sujeito Identificado</Link>
           </div>
           <div className="alert">
             <p>

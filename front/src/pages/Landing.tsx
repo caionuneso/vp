@@ -22,9 +22,15 @@ function Landing() {
           </Link>
         </header>
         <div className="buttonChoice">
-          <Link to="/denunciations">Denúncia</Link>
-          <Link to="/">Sugestão</Link>
-          <Link to="/">Índice de efetividade da gestão</Link>
+            <Link to="/denunciations">Denúncia</Link>
+            <Link to="/">Sugestão</Link>
+            <Link to="/">Índice de efetividade da gestão</Link>
+            <Link to="/">Consulte sua manifestação</Link>
+            <Link to="/">Elogio</Link>
+            <Link to="/">Reclamação</Link>
+            <Link to="/">Simplifique</Link>
+            <Link to="/">Solicitação</Link>
+          
         </div>
         <main>
           <h1>Fale por todos</h1>

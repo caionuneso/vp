@@ -95,6 +95,10 @@
     transition: background-color 0.2s;
 }
 
+#page-denunciations .content-wrapper .buttonChoice .buttonGenerate {
+    margin-top: 3rem;
+}
+
 #page-denunciations .content-wrapper .buttonChoice a:hover {
     background: #96feff;
 }
@@ -103,7 +107,7 @@
     padding: 0rem 0;
     width: 75%;
     
-    margin-top: 5px;
+    margin-top: 10%;
 }
 
 #page-denunciations .content-wrapper main .alert p{
@@ -144,7 +148,7 @@
     #page-denunciations .content-wrapper main .alert{
         padding: 0;
         width: 75%;
-        margin-top: 10%;
+        align-items: baseline;
     }
 
     #page-denunciations .content-wrapper main .alert p{

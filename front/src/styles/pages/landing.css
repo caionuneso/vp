@@ -12,10 +12,10 @@
     position: relative;
 
     width: 100%;
-    max-width: 1100px;
+    max-width: 1500px;
 
     height: 100%;
-    max-height: 600px;
+    max-height: 750px;
 
     display: flex;
     align-items: flex-start;
@@ -24,7 +24,7 @@
 
     background: url('../../images/landing.png') no-repeat right bottom;
     /* <a href='https://www.freepik.com/vectors/people'>People vector created by pikisuperstar - www.freepik.com</a> */
-    background-size: 50%;
+    background-size: 45%;
 }
 
 #page-landing .content-wrapper header{
@@ -60,19 +60,25 @@
     justify-content: space-between;
 }
 
+
 #page-landing .content-wrapper .buttonChoice a {
     display: flex;
     align-items: center;
     justify-content: center;
 
     text-decoration: none;
-    width: 300px;
-    height: 80px;
+    width: 175px;
+    height: 85px;
     background: #ffd666;
     border-radius: 30px;
     
     transition: background-color 0.2s;
+
+    font-weight: 900;
+
+    text-align: center;
 }
+
 
 #page-landing .content-wrapper .buttonChoice a:hover {
     background: #96feff;
@@ -118,25 +124,26 @@
         margin-top: 5px;
     }
     
-    .content-wrapper .buttonChoice{
+    
+    #page-landing .content-wrapper .buttonChoice{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        min-height: 300px;
+        min-height: 450px;
 
         margin-top: 0.8rem;
         margin-bottom: 0.8rem;
     }
 
-    .content-wrapper .buttonChoice a {
+    #page-landing .content-wrapper .buttonChoice a {
         display: flex;
         align-items: center;
         justify-content: center;
     
         text-decoration: none;
-        width: 80vw;
-        height: 10vh;
+        width: 80%;
+        height: 6vh;
         background: #ffd666;
         border-radius: 20px;
         
@@ -154,7 +161,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 0 0 15% 0;
+        margin: 0 0 3% 0;
     }
 
     #page-landing .content-wrapper main h1 {
@@ -165,7 +172,7 @@
     
     #page-landing .content-wrapper main p {
         margin-top: 3px;
-        font-size: 7vw;
+        font-size: 6vw;
         line-height: 7vw;
     }
 }
