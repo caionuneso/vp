@@ -1,43 +1,45 @@
-import React from 'react';
+import React from "react";
 
-import icon from '../images/icon.svg'
-
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import { FiArrowLeft } from "react-icons/fi";
 
-import '../../styles/pages/pages-denunciations/report.css';
+import { Form } from "@unform/web";
 
-function report(){
-    return(
-            <div id="page-report">
-               <header className ="page-header">
-                   <div className="top-bar-container">
-                        <img src="/static/media/icon.5d399b31.svg" alt="icon"/>
-                        <Link to="/denunciations">
-                            <FiArrowLeft size={35} /> 
-                        </Link>
-                        
-                   </div>
+import Textarea from "../../components/Form/textarea";
 
-                   <div className="header-content">
-                       <strong>Com a sua contribuição conseguimos transformar nossa cidade em um lugar melhor</strong>
-                   </div>
+import "../../styles/pages/pages-denunciations/report.css";
 
-               </header>
+import Input from '../../components/Form/input'
 
-                <form id="anonymousForm">
-                    <div className="description">
-                        <label htmlFor="Descricao">Descrição</label>
-                        <input type="text"/>
-                    </div>
-                </form>
+const report: React.FC = () => {
+  function handleSubmit(data: object): void {
+    console.log(data);
+  }
+  return (
+    <div id="page-report">
+      <header className="page-header">
+        <div className="top-bar-container">
+          <Link to="/denunciations">
+            <FiArrowLeft size={35} />
+          </Link>
+          <img src="/static/media/icon.5d399b31.svg" alt="icon" />
+        </div>
 
-            </div>
+        <div className="header-content">
+          <strong>
+            Com a sua contribuição conseguimos transformar nossa cidade em um
+            lugar melhor
+          </strong>
+        </div>
+      </header>
 
-    );
-}
+      <Form onSubmit={handleSubmit}>
+        <Textarea name="description"  />
+        <button type="submit">Enviar</button>
+      </Form>
+    </div>
+  );
+};
 
 export default report;
-
-
