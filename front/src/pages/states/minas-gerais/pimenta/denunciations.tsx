@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../styles/global.css";
-import "../styles/pages/denunciations.css";
+import "../../../../styles/global.css";
+import "../../../../styles/pages/denunciations.css";
 
-import icon from "../images/icon.svg";
+import icon from "../../../../images/icon.svg";
 
 import { FiArrowLeft } from "react-icons/fi";
 
@@ -22,15 +22,15 @@ function denunciations() {
         <header>
           <div className="tolbarDenunciations">
             <h1>Efetuar denúncias</h1>
-            <Link to="/">
+            <Link to="/mg/pimenta/">
               <FiArrowLeft size={15} /> clique para voltar
             </Link>
           </div>
         </header>
         <main>
           <div className="buttonChoice">
-            <Link to="/report">Anonimato</Link>
-            <Link className="buttonGenerate" to="/generateProtocol">Sujeito Identificado</Link>
+            <Link to="/mg/pimenta/report">Anonimato</Link>
+            <Link className="buttonGenerate" to="/mg/pimenta/generateProtocol">Sujeito Identificado</Link>
           </div>
           <div className="alert">
             <p>
