@@ -111,7 +111,7 @@
 @media(max-width: 910px){
     #page-landing .content-wrapper{
         background-image: unset;
-        min-height: 90vh;
+        max-height: 100vh;
     }
     
     #page-landing .content-wrapper header{
@@ -119,6 +119,7 @@
         flex-direction: column;
         align-items: center;
         
+        margin-top: 1rem;
     }
 
     #page-landing .content-wrapper header .logo{
@@ -138,10 +139,10 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        min-height: 370px;
+        min-height: 70vh;
 
-        margin-top: 0.8rem;
-        margin-bottom: 0.8rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
     }
 
     #page-landing .content-wrapper .buttonChoice a {
@@ -164,23 +165,23 @@
 
     #page-landing .content-wrapper main{
         min-width: 100vw;
+        min-height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 0 0 3% 0;
     }
 
     #page-landing .content-wrapper main h1 {
-        font-size: 11vw;
+        font-size: 10vw;
         font-weight: 900;
         line-height: 10vw;
     }
     
     #page-landing .content-wrapper main p {
         margin-top: 3px;
-        font-size: 6vw;
+        font-size: 4vw;
         line-height: 7vw;
     }
 }

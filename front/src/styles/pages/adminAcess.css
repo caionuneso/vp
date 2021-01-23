@@ -8,16 +8,19 @@
     max-height: 80px;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: baseline;
 
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #page-AdminAcess .spaceLogo .logo img{
-    height: 60px;
-    margin-right: 7px;
+    display: flex;
+    align-items: baseline;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 4vh;
+    margin-left: 3vh;
 }
-
 
 #page-AdminAcess .content-wrapper {
     width: 95%;
@@ -59,28 +62,46 @@
 #page-AdminAcess .content-wrapper main{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #page-AdminAcess .content-wrapper main .content{
-        width: 350px;
-    }
+    width: 350px;
+}
 
 .formGroup-Credentials form{
     display: flex;
     flex-direction: column;
 }
 
+#page-AdminAcess main .content .formGroup-Credentials .sendButtonAdminAcess {
+    margin: auto;
+
+    width: 270px;
+    height: 85px;
+    background: #ffd666;
+    border-radius: 30px;
+
+    transition: background-color 0.2s;
+
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#page-AdminAcess main .content .formGroup-Credentials .sendButtonAdminAcess:hover {
+    background: #96feff;
+}
+
+
 .formGroup-Credentials form input[type=text], .formGroup-Credentials form input[type=password]{
+    border-radius: 10px;
+
     height: 45px;
     border: 1px solid #ccc;
     margin: 10px 0;
 }
 
-.formGroup-Credentials form input[type=submit]{
-    cursor: pointer;
-    height: 67px;
-    margin-top: 2.5rem;
-}
+
 
 @media(max-width: 910px){
     #page-AdminAcess .spaceLogo .logo{

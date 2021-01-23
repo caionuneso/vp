@@ -34,9 +34,7 @@ function denunciations() {
           </div>
           <div className="alert">
             <p>
-              Atenção! Caso escolha fazer a denúncia de forma anônima, não haverá a
-              geração de um protocolo. Assim, não será possível acompanhar o
-              processo da denúncia.{" "}
+            As manifestações registradas de maneira anônima são consideradas “Comunicações” e não é possível o seu acompanhamento. Caso deseje acompanhar o andamento da sua manifestação e receber uma resposta do órgão ou entidade, por favor identifique-se.{" "}
             </p>
           </div>
         </main>

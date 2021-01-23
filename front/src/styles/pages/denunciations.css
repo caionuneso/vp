@@ -95,10 +95,6 @@
     transition: background-color 0.2s;
 }
 
-#page-denunciations .content-wrapper .buttonChoice .buttonGenerate {
-    margin-top: 3rem;
-}
-
 #page-denunciations .content-wrapper .buttonChoice a:hover {
     background: #96feff;
 }
@@ -152,6 +148,6 @@
     }
 
     #page-denunciations .content-wrapper main .alert p{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
