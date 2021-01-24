@@ -114,14 +114,14 @@
         
         background-color: #fff;
     
-        max-width: 85%;
+        max-width: 100%;
     
         margin: 2% auto;
     
         border-radius: 0.7rem;
     
-        width: 90%;
-        height: 80vh;
+        width: 95%;
+        height: 95vh;
     }
 
     #page-report .page-header{
