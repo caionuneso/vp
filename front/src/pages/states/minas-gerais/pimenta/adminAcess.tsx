@@ -7,9 +7,6 @@ import "../../../../styles/pages/adminAcess.css";
 import icon from "../../../../images/icon.svg";
 import { FiArrowLeft } from "react-icons/fi";
 
-import { Form } from "@unform/web";
-import Input from "../../../../components/Form/input";
-
 const adminAcess: React.FC = () => {
   function handleSubmit(data: object): void {
     console.log(data);
@@ -34,11 +31,11 @@ const adminAcess: React.FC = () => {
         <main>
           <div className="content">
             <div className="formGroup-Credentials">
-              <Form name="loginForm" id="login" onSubmit={handleSubmit}>
-                <Input type="text" name="UserName" placeholder="E-mail"/>
-                <Input type="password" name="Password" placeholder="Senha"/>
+              <form name="loginForm" id="login" onSubmit={handleSubmit}>
+                <input type="text" name="UserName" placeholder="E-mail"/>
+                <input type="password" name="Password" placeholder="Senha"/>
                 <button className="sendButtonAdminAcess" type="submit" name="send" >Entrar</ button>
-              </Form>
+              </form>
             </div>
           </div>
         </main>

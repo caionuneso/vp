@@ -70,7 +70,7 @@
     border-radius: 0.7rem;
 }
 
-#page-report #formReport #Files {
+#page-report #formReport #files {
     color: rgb(104, 104, 104);
 
     width: 100%;
@@ -128,7 +128,7 @@
         display: none;
     }
 
-    #page-report #formReport #Files {
+    #page-report #formReport #files {
         color: rgb(104, 104, 104);
         font-size: medium;
         width: 100%;

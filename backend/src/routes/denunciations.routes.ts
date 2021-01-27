@@ -19,14 +19,16 @@ denunciationsRouter.get('/', ensureAuthenticated, async (request, response) => {
 /* Criar Denuncias */
 denunciationsRouter.post(
   '/',
-  upload.array('images', 12),
+  upload.array('file', 12),
   async (request, response) => {
-    const denunciationRepository = getRepository(Denunciation);
+    console.log(request.files);
     const images_url: string[] = [];
     const files = JSON.parse(JSON.stringify(request.files));
     files.forEach((file: Express.Multer.File) => {
       images_url.push(file.path);
     });
+
+    const denunciationRepository = getRepository(Denunciation);
 
     const denunciation = {
       city_id: request.body.city_id,
