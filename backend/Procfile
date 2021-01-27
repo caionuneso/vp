@@ -1,2 +1,1 @@
-web: yarn start,
-outDir: ./dist
+web: yarn start
